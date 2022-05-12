@@ -23,4 +23,9 @@ public class CampaignTest {
 	{
 		System.out.println("Campaign is edited");	
 	}
+	@Test(groups="RegressionTesting")
+	public void deleteCampaignTest()
+	{
+		System.out.println("Campaign is deleted");	
+	}
 }
